@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Coconut</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            //pt1
+            let correct = document.querySelector('.correct');
+            correct.addEventListener('click', function() {
+                correct.style.backgroundColor = 'green';
+                document.querySelector('#x').innerHTML = "Correct!";
+                });
+                
+            let incorrect = document.querySelectorAll('.incorrect');
+            for (let i = 0; i < incorrect.length; i++){
+                incorrect[i].addEventListener('click', function(){
+                    incorrect[i].style.backgroundColor = 'red';
+                    document.querySelector('#x').innerHTML = "Incorrect";
+                });
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bigmoments.html">Fun Memories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="costumes.html">Costumes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="favthings.html">Favorite Activites</a>
+          </li>
+        </ul>
+        <!-- coco title and photos -->
+        <h1 class="main" >Welcome to a webpage all about Coconut!</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <img src="images/header4.jpg" class="img-fluid" alt="coconut">
+                </div>
+                <div class="col">
+                   <img src="images/header5.jpg" class="img-fluid" alt="coconut">
+                </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-sm">
+              <img src="images/header1.JPG" class="img-fluid" alt="coconut">
+            </div>
+            <div class="col-sm">
+              <img src="images/header2.jpeg" class="img-fluid" alt="coconut">
+            </div>
+            <div class="col-sm">
+              <img src="images/header3.JPG" class="img-fluid" alt="coconut">
+            </div>
+            </div>
+        </div>
+        <br>
+        
+        <!-- question abt breed of dog -->
+        <div class="container">
+                <h3 class="trivia"> What kind of dog am I?</h3>
+                
+                <button class="incorrect">Goldendoodle</button>
+                <button class="correct">Bernedoodle</button>
+                <button class="incorrect">Aussiedoodle</button>
+                <button class="incorrect">Labradoodle</button>
+                
+                <p id = 'x'></p>
+
+
+            </div>
+    </body>
+</html>

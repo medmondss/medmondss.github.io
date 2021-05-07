@@ -1,0 +1,84 @@
+.main
+{
+  padding: 50px 50px;
+  background: PowderBlue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: GhostWhite;
+}
+
+.costumes
+{
+  padding: 50px 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: CornflowerBlue;
+}
+
+.trivia
+{
+  padding: 5px 5px;
+  background: GhostWhite;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: MidnightBlue;
+  border-style: solid;
+  border-color: MidnightBlue;
+}
+
+button
+{
+  color: Black;
+  border-radius: 10px;
+  background: GhostWhite;
+  border-color: Black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.favact
+{
+  text-align: center;
+  color: LightSlateGrey;
+  font-family: Arial, Helvetica, sans-serif;
+  background: White;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.favacthead
+{
+  padding: 50px 50px;
+  background: LightSlateGrey;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: GhostWhite;
+  
+}
+
+.mems
+{
+  text-align: center;
+  color: CadetBlue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.memshead
+{
+  padding: 50px 50px;
+  background: CadetBlue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: GhostWhite;
+  
+}
+
+img
+{
+  width: 100%;
+}
